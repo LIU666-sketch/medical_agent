@@ -14,8 +14,8 @@ if not os.path.exists(TEMP_DIR):
 medical_ai = create_medical_ai(
     provider_type="deepseek",
     enable_search=True,
-    serper_api_key="8e5ed3f62cfbdd30246869520f3014303032d1c6",
-    api_key="sk-82a0d10a04a743cd9364f82a6942f633"
+    serper_api_key="填入你的搜索引擎api",
+    api_key="sk-填入你的deepseekapi
 )
 
 def process_audio_file(audio_file_path):
